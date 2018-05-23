@@ -22,23 +22,13 @@ Esta guia cuenta con traducciones en los siguientes lenguajes:
 
 # Guia de estilos para Rails
 
-This Rails style guide recommends best practices so that real-world Rails
-programmers can write code that can be maintained by other real-world Rails
-programmers. A style guide that reflects real-world usage gets used, and a
-style guide that holds to an ideal that has been rejected by the people it
-is supposed to help risks not getting used at all &ndash; no matter how good
-it is.
+Esta guia de estilo recomienda las mejores practicas de desarrollo para aplicaciones del mundo real enfocada en la escritura de codigo mantenible por varios programadores. La guia de estilos refleja casos de uso en la vida real y las maneras de escribir codigo ideales las cuales pueden ser puestas en practica u omitidas por las personas a cargo de los proyectos.
 
-The guide is separated into several sections of related rules. I've tried to add
-the rationale behind the rules (if it's omitted I've assumed it's pretty
-obvious).
+La guia esta separada en diferentes categorias importantes, tratare de agregar reglas importantes bajo la misma o diferente categoria. (si alguna es omitida sera debido a la obviedad de la misma).
 
-I didn't come up with all the rules out of nowhere - they are mostly based on my
-extensive career as a professional software engineer, feedback and suggestions
-from members of the Rails community and various highly regarded Rails
-programming resources.
+No todas las reglas son obligadas - muchas de ellas estan basadas en mis larga carrera profesional como ingeniero de software, comentarios y sugerencias por miembros de la comunidad Ruby y otros importantes profesionales en recursos para programadores Rails.
 
-## Table of Contents
+## Tabla de contenido
 
 * [Configuration](#configuration)
 * [Routing](#routing)
@@ -60,21 +50,18 @@ programming resources.
 ## Configuration
 
 * <a name="config-initializers"></a>
-  Put custom initialization code in `config/initializers`. The code in
-  initializers executes on application startup.
+  Coloca codigo de inicio en `config/initializers`. El codigo de inicio se ejecutara unicamente en el comienzo de la aplicacion.
 <sup>[[link](#config-initializers)]</sup>
 
 * <a name="gem-initializers"></a>
-  Keep initialization code for each gem in a separate file with the same name
-  as the gem, for example `carrierwave.rb`, `active_admin.rb`, etc.
+  Manten el codigo de inicio requerido por las gemas en archivos separados con el mismo nombre que la gema, por ejemplo `carrierwave.rb`, `active_admin.rb`, etc.
 <sup>[[link](#gem-initializers)]</sup>
 
 * <a name="dev-test-prod-configs"></a>
-  Adjust accordingly the settings for development, test and production
-  environment (in the corresponding files under `config/environments/`)
+  Ajustes acorde a las configuraciones para ambientes de desarrollo, pruebas y produccion (en sus archivos correspondientes bajo la carpeta `config/environments/`)
 <sup>[[link](#dev-test-prod-configs)]</sup>
 
-  * Mark additional assets for precompilation (if any):
+  * Marca los recursos adicionales para precompilacion (si los tienes):
 
     ```ruby
     # config/environments/production.rb
