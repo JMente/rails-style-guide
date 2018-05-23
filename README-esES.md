@@ -3,27 +3,24 @@
 > Role models are important. <br/>
 > -- Officer Alex J. Murphy / RoboCop
 
-The goal of this guide is to present a set of best practices and style
-prescriptions for Ruby on Rails 4 development. It's a
-complementary guide to the already existing community-driven
-[Ruby coding style guide](https://github.com/bbatsov/ruby-style-guide).
+El objetivo de esta guia es presentar una serie de recomendaciones sobre buenas practicas y estilo para desarrolladores en Ruby on Rails 4. Esta es una guia complementaria para la comunidad basada en [Ruby coding style guide](https://github.com/bbatsov/ruby-style-guide).
 
-Some of the advice here is applicable only to Rails 4.0+.
+Algunas recomendaciones descritas aqui son aplicables unicamente en Rails 4.0 o posterior.
 
-You can generate a PDF or an HTML copy of this guide using
-[Pandoc](http://pandoc.org/).
+Puedes generar un documento PDF o HTML de esta guia usando [Pandoc](http://pandoc.org/).
 
-Translations of the guide are available in the following languages:
+Esta guia cuenta con traducciones en los siguientes lenguajes:
 
 * [Chinese Simplified](https://github.com/JuanitoFatas/rails-style-guide/blob/master/README-zhCN.md)
 * [Chinese Traditional](https://github.com/JuanitoFatas/rails-style-guide/blob/master/README-zhTW.md)
 * [Japanese](https://github.com/satour/rails-style-guide/blob/master/README-jaJA.md)
 * [Russian](https://github.com/arbox/rails-style-guide/blob/master/README-ruRU.md)
+* [Spanish](https://github.com/JMente/rails-style-guide/rails-style-guide/README-esES.md)
 * [Turkish](https://github.com/tolgaavci/rails-style-guide/blob/master/README-trTR.md)
 * [Korean](https://github.com/pureugong/rails-style-guide/blob/master/README-koKR.md)
 * [Vietnamese](https://github.com/CQBinh/rails-style-guide/blob/master/README-viVN.md)
 
-# The Rails Style Guide
+# Guia de estilos para Rails
 
 This Rails style guide recommends best practices so that real-world Rails
 programmers can write code that can be maintained by other real-world Rails
